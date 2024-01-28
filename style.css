@@ -1,85 +1,122 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 2;
+  padding: 10;
+  color: #333;
+  text-align: center;
+  background: #f4f4f4;
 }
 
 header {
-    background: #f4f4f4;
-    padding: 20px 0;
-    text-align: center;
+  background: #f4f4f4;
+  padding: 10px, 0px;
+  text-align: center;
 }
 
 section {
-    padding: 20px;
-    margin: 0 auto;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 section#about {
-    max-width: 800px;
+  max-width: 800px;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+  list-style: none;
+  padding: 0;
+  text-align: center;
 }
 
 ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 i {
-    font-style: italic;
+  font-style: italic;
 }
 
 /* Additional CSS for images */
 img {
-    max-width: 100%; /* Makes image responsive */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Aligns image to the center of the block */
-    margin: 20px auto; /* Adds space above and below the image, centers it horizontally */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
-    border-radius: 4px; /* Optional: Rounds the corners of the image */
+  max-width: 100%; /* Makes image responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Aligns image to the center of the block */
+  margin: 20px auto; /* Adds space above and below the image, centers it horizontally */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+  border-radius: 4px; /* Optional: Rounds the corners of the image */
 }
 
-/* Additional CSS for buttons */
+p {
+  color: #000; /* Changed to black */
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+a {
+  color: #000; /* Changed to black */
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 button {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f4f4f4;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    margin: 20px auto;
-    display: block;
-    text-align: center;
-    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
 }
 
-/* Centering the button container */
-.button-container {
-    text-align: center; /* Centers the inline-block button within */
+#linkedin:hover {
+  background-color: #0059a3;
 }
 
-/* If you want to center a button within a section, you can use this */
-section {
-    text-align: center; /* This will center the button text if the button is within a section */
+#github:hover {
+  background-color: #fa9704;
 }
 
-/* New hover styles */
-button:hover {
-    background-color: rgb(13, 225, 240);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: #000;
+#resume:hover {
+  background-color: #5df704;
 }
+
+.button-link img, img {
+  /* Existing styles */
+  border-radius: 50%; /* Makes the border circular */
+}
+
+
+ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #000; /* Changed to black */
+  text-align: left;
+}
+
+b, i {
+  color: #000; /* Changed to black */
+}
+
+.centered-text {
+  text-align: center;
+}
+
+
+
 
